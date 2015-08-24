@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
 
 		setContentView(R.layout.activity_main);
 		WebView webView = (WebView) findViewById(R.id.webview);
-		webView.getSettings().setMinimumFontSize(16);
 		webView.getSettings().setJavaScriptEnabled(true);
 		webView.getSettings().setUseWideViewPort(true);
 		webView.getSettings().setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN);
